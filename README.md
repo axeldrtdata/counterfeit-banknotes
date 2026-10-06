@@ -41,18 +41,17 @@ counterfeit-banknotes/
 git clone https://github.com/axeldrtdata/counterfeit-banknotes.git
 cd counterfeit-banknotes
 pip install -r requirements.txt
-jupyter notebook
 ```
 
-Open `notebooks/02-prediction-script.ipynb` to score new banknotes with the trained model. Each note gets a verdict, a probability of being genuine, and a "To check" flag when the model is uncertain.
+Open the folder in VS Code (with the Python and Jupyter extensions), then run `notebooks/02-prediction-script.ipynb` to score new banknotes with the trained model. Each note gets a verdict, a probability of being genuine, and a "To check" flag when the model is uncertain.
 
 ## Stack
 
-Python · pandas · NumPy · scikit-learn · Matplotlib · Seaborn · Plotly · Jupyter
+Python · pandas · NumPy · scikit-learn · Matplotlib · Seaborn · Plotly · VS Code
 
 ## Note
 
-The notebooks are written in French, as they were produced during my OpenClassrooms Data Analyst training. The case study linked above presents the full project in English.
+The notebooks were first written in French during my OpenClassrooms Data Analyst training. Their text, comments and chart labels have since been translated into English; variable and column names were kept as in the original data.
 
 ---
 
